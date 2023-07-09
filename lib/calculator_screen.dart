@@ -50,10 +50,12 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   }
 
   void _onClearPressed() {
-    _output = '';
-    _firstOperand = 0;
-    _currentNumber = '';
-    _operator = '';
+    setState(() {
+      _output = '';
+      _firstOperand = 0;
+      _currentNumber = '';
+      _operator = '';
+    });
   }
 
   @override
