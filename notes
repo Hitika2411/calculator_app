@@ -1,0 +1,11 @@
+step 1: run flutter create to create the app in desired location
+step 2: edit the main function to return material app which will run the calculator app.Make sure to import all necessary files
+step 3: in the calculator_app.dart initialise layout for your screen by making a scaffold and then return material app which will point to calculator_screen.dart,import necessary files
+step 4: in calculator screen.dart
+        1: make a stf widget of name calculator screen
+        2: make methods like onNumberPressed,onOperatorPressed,onEqualPressed,onClearPressed and define their functionalities as the button is pressed
+        3:once functions are defined make the Widgets, for that make corresponding functions with return type widget 
+        4:in the build function of calculator screen return Expanded Widget that provides constraints such as row ,column 
+        5: define a column constraint ,in that define alignment ,define the row constrait 
+             1: build as my row widgets as you want the number of rows
+            2: in each row define its structure and then the method calls for corresponding buttons built in it
