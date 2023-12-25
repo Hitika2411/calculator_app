@@ -1,20 +1,18 @@
-<<<<<<< HEAD
-# calculator_app
+# Project Title :  Basic Calculator 
 
-A new Flutter project.
-
+## Description
+This flutter based application helps users to perform basic operations on numbers
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Executing program
+To run this program ,
+1: flutter sdk must be installed 
+2: If using VS Code , use Ctrl+Shift+ P and command flutter : Select Device to choose which device to run on from windows/mac, edge/chrome,ios/andriod or any emulator installed from the list of devices shown.
+3: In the terminal , run command flutter run ,Wait for the installation process to complete.
+4: Once installed , this can be run normally like any ohter installed application.
 
-A few resources to get you started if this is your first Flutter project:
+## Authors
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Hitika
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# calculator_app
->>>>>>> 1d5892ce431887c3da25b46b7ac4efcbd71a1c3c
+Student at Chandigarh University
